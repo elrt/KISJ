@@ -1,0 +1,7 @@
+PR "Start\n"
+G skip_dead
+PR "This should be eliminated by DCE\n"
+
+:skip_dead
+PR "Alive!\n"
+HT
